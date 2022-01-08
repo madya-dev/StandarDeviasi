@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>standar deviasi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="card">
+      <h1 class="title">Kalkulator Standar Deviasi</h1>
+      <p class="name">-Madya Santosa-</p>
+      <hr />
+      <div class="jawaban" id="jawaban">
+        <p id="hasil">0</p>
+      </div>
+      <form action="" id="form" method="POST">
+        <label for="tipe">Tipe</label>
+        <select name="tipe" id="tipe">
+          <option value="0">Standar Deviasi Populasi</option>
+          <option value="1">Standar Deviasi Sampel</option>
+        </select>
+        <div class="form-group">
+          <label for="data">Data</label>
+          <textarea
+            name="data"
+            id="data"
+            cols="30"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn-hitung">Hitung</button>
+        <button type="reset" class="btn-reset">Reset</button>
+      </form>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

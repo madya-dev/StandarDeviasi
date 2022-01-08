@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 32px;
+  width: 50%;
+  height: 100vh;
+}
+hr {
+  margin: 16px 0;
+}
+.card .title,
+.name {
+  text-align: center;
+}
+.card .title {
+  font-size: 32px;
+}
+.card .jawaban {
+  margin-bottom: 32px;
+}
+.card .jawaban #hasil {
+  font-size: 32px;
+}
+
+#form #tipe {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.form-group label {
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.form-group #data {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+.btn-hitung,
+.btn-reset {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.btn-hitung {
+  background-color: #34d399;
+  color: #fff;
+  border: 1px solid #34d399;
+}
+.btn-reset {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #ccc;
+}
+.btn-hitung:hover {
+  background-color: #10b981;
+}
+.btn-reset:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
